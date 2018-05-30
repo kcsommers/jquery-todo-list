@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+body {
+	text-align: center;
+	background-color: #a0b3f9;
+	height: 100%;
+	padding: 0 8%;
+}
+
+h1 {
+	font-size: 5em;
+	margin: 50px 0;
+}
+
+li {
+	font-size: 2em;
+
+}
+
+li:hover .deleteBtn, li:hover .completeBtn {
+	opacity: 1;
+}
+
+.main-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.list-container, form {
+	float: left;
+	width: 48%;
+	height: 380px;
+	border: 5px solid #fff;
+	border-radius: 5px;
+	background-color: rgba(55,55,55,0.5);
+	margin: 5px;
+}
+
+ol {
+	text-align: left;
+	list-style-position: inside;
+	height: 100%;
+	overflow: scroll;
+	padding: 50px 10px 50px 30px;
+}
+
+#user-input, button {
+	display: block;
+	font-size: 1.5em;
+	color: #444;
+	padding: 10px;
+	background: #fff;
+	outline: none;
+	margin: 20px auto;
+}
+
+button {
+	width: 30%;
+	margin-top: 50px;
+	cursor: pointer;
+	background: yellow;
+}
+
+p, label {
+	font-size: 1.5em;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.high, .warning {
+	color: #FF4ABD;
+}
+
+.medium {
+	color: #FFD34A;
+}
+
+.low {
+	color: #4ADEFF;
+}
+
+.complete {
+	color: #666;
+	text-decoration: line-through;
+}
+
+.deleteBtn {
+	color: red;
+}
+
+.deleteBtn, .completeBtn {
+	font-size: 0.5em;
+	float: right;
+	padding-top: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	opacity: 0;
+	margin: 5px;
+}
+
+form {
+	padding: 50px;
+}
+
+.empty-list {
+	margin: 80px auto;
+	width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
